@@ -1,0 +1,1 @@
+This is a descriptive README file that will be all about responsive design in webpages, i.e styling a website for adaptive behavior in relation to device properties such as screen sizes, or resolution to display contents.
