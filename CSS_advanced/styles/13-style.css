@@ -46,25 +46,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* Target only anchor elements containing a hyperlink */
-a[href] {
+a {
   color: var(--text-color);
   text-decoration: none; /* Remove any text decoration from links */
 }
 
-/* Visited state: italicize the text */
-a[href]:visited {
-  font-style: italic;
+a:visited {
+  font-style: italic; /* Italicize visited links */
 }
 
-/* Hover state: underline the links when hovering */
-a[href]:hover {
-  text-decoration: underline;
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }
 
-/* Active state: set the background color to light grey */
-a[href]:active {
-  background-color: var(--color-light-grey);
+a:active {
+  background-color: var(--color-light-grey); /* Set background color for active links */
 }
 
 .visually-hidden {
