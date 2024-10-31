@@ -1,6 +1,6 @@
 function welcome(firstName, lastName) {
-    firstName = 'Mugisha';
-    lastName = 'Gasheja';
+    firstName = 'Heri';
+    lastName = 'Seba';
     
     let fullName = `${firstName} ${lastName}`;
     function displayFullName() {
